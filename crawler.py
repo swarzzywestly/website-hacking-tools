@@ -4,7 +4,7 @@
 
 import requests
 
-url = "gfdsfssfsf.google.com"
+url = "google.com"
 try:
     get_response = requests.get("http://" + url)
     print(get_response)
